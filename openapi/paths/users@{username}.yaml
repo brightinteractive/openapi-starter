@@ -36,7 +36,7 @@ get:
           schema:
             oneOf:
             - $ref: ../components/schemas/User.yaml
-            - $ref: ../components/schemas/UserOrEmailComponent.yaml
+            - $ref: ../components/schemas/UserOrEmailContainer.yaml
           example:
             username: user1
             email: user@example.com
